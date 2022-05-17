@@ -1,11 +1,11 @@
 function cantidadDeDivisores(numero1: number): number {
-  let contando: number = 1;
+  let divisores: number = 1;
   for (let indice = 0; indice < numero1; indice++) {
     if (numero1 % indice === 0) {
-      contando++;
+      divisores++;
     }
   }
-  return contando;
+  return divisores;
 }
 let numero12: number = Number(prompt("ingrese numero"));
 console.log(
